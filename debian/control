@@ -1,7 +1,7 @@
 Source: zimbra-junixsocket-native
 Section: mail
 Priority: optional
-Build-Depends: debhelper (>=9), default-jdk, maven
+Build-Depends: debhelper (>=9), openjdk-8-jdk, maven
 Standards-Version: 3.9.6
 Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
 Uploaders: Enrico Weigelt, metux IT consult <info@metux.net>

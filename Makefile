@@ -1,6 +1,7 @@
 
 all:
 	mvn package -Dmaven.javadoc.skip=true -DskipTests
+	cd junixsocket-native && mvn package -Dmaven.javadoc.skip=true -DskipTests
 
 install:
 	$(call mk_install_dir, lib)
