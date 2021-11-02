@@ -1,0 +1,6 @@
+*.log
+*.substvars
+/.debhelper
+/zimbra-junixsocket
+/files
+/changelog
